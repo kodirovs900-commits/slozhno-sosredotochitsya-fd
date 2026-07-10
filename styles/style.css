@@ -8,6 +8,8 @@
   font-family: var(--main-font);
   font-size: var(--main-font-size);
 }
+
+
 .header {
   position: relative;
   display: grid;
@@ -314,6 +316,10 @@
 }
 
 @media (width >= 1024px) {
+  .header__description {
+    max-width: 491px;
+  }
+
   .header__theme-menu {
     justify-self: center;
     align-self: start;
