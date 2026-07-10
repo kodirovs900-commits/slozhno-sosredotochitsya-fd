@@ -39,8 +39,8 @@
 .decorated-zone::after {
   bottom: var(--page-padding);
   left: var(--page-padding);
-  border-bottom: 1px solid var(--button-color);
-  border-left: 1px solid var(--button-color);
+  border-bottom: 1px solid var(--decor-color);
+  border-left: 1px solid var(--decor-color);
 }
 
 .header__theme-menu {
@@ -89,7 +89,7 @@
 .header__rec {
   position: absolute;
   top: var(--page-padding);
-  right: calc(var(--page-padding) + 10px);
+  right: calc(var(--page-padding) + 28px);
   color: var(--accent-color);
   font-size: var(--main-font-size);
   line-height: 25px;
