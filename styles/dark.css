@@ -22,4 +22,11 @@
     --button-color: #ff0070;
     --decor-color: #ff0070;
   }
+  :root:not(.theme-light) .header__rec {
+    display: block;
+  }
+}
+
+:root.theme-dark .header__rec {
+  display: block;
 }
