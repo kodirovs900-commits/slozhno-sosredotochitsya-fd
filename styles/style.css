@@ -47,7 +47,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  align-self: start;
+  align-self: center;
   /*margin-top: -3px;*/
   /*transform: translateY(1px);*/
 }
@@ -60,8 +60,7 @@
 
 .header__theme-menu-button {
   border: 1px solid transparent;
-  /*padding: 2px 13px 4px;*/
-  padding: 1.5px 13px;
+  padding: 2px 13px 4px;
   color: var(--button-color);
   background-color: transparent;
   font-family: inherit;
@@ -105,8 +104,7 @@
   width: 9px;
   height: 9px;
   margin-left: 10px;
-  /*margin-bottom: 2px;*/
-  margin-bottom: 1px;
+  margin-bottom: 2px;
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
@@ -114,7 +112,6 @@
 
 .header__title {
   align-self: center;
-  margin-top: 8px;
   color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
@@ -128,7 +125,7 @@
 
 .header__description {
   justify-self: end;
-  align-self: end;
+  align-self: center;
   max-width: 355px;
   font-size: var(--main-font-size);
   font-weight: 700;
