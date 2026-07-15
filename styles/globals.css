@@ -40,3 +40,13 @@ a {
   background: transparent;
   border: none;
 }
+
+img {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.gallery__image {
+  display: block;
+  object-fit: cover;
+}

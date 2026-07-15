@@ -8,6 +8,7 @@
   --section-title-color: #ff0070;
   --button-color: #ff0070;
   --decor-color: #ff0070;
+  --button-hover-color: rgb(255 0 112 / 0.4);
 }
 
 @media (prefers-color-scheme: dark) {

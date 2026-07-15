@@ -8,6 +8,7 @@
   --section-title-color: #353430;
   --button-color: #353430;
   --decor-color: #353430;
+  --button-hover-color: rgb(53 52 48 / 0.4);
 }
 
 :root.theme-light .header__rec {
