@@ -1,28 +1,19 @@
-:root.theme-dark {
-  --bg-color: #000028;
-  --bg-image: url("../images/cover-image-dark.png");
-  --accent-color: #ff0070;
-  --main-color: #f1b2ce;
-  --title-color: #db00ff;
-  --subtitle-color: #000028;
-  --section-title-color: #ff0070;
-  --button-color: #ff0070;
-  --decor-color: #ff0070;
-  --button-hover-color: rgb(255 0 112 / 0.4);
-}
+@charset "UTF-8";
 
-@media (prefers-color-scheme: dark) {
-  :root:not(.theme-light) {
-    --bg-color: #000028;
-    --bg-image: url("../images/cover-image-dark.png");
-    --accent-color: #ff0070;
-    --main-color: #f1b2ce;
-    --title-color: #db00ff;
-    --subtitle-color: #000028;
-    --section-title-color: #ff0070;
-    --button-color: #ff0070;
-    --decor-color: #ff0070;
-  }
+:root.theme-dark {
+  --main-text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --title-shadow: #ff0070;
+  --hover-color: 1px solid rgba(255, 0, 112, 0.4);
+  --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+  --article-title-color: var(--background-color);
+  --section-title-color: var(--title-shadow);
+  --border-color: var(--main-text-color);
+  --corners-color: var(--title-shadow);
+  --title-decor: var(--title-shadow);
+  --link-shadow: var(--title-shadow);
+  --rec-color: var(--title-shadow);
 }
 
 :root.theme-dark .header__rec {
@@ -30,8 +21,23 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) {
+    --main-text-color: #f1b2ce;
+    --title-color: #db00ff;
+    --title-shadow: #ff0070;
+    --hover-color: 1px solid rgba(255, 0, 112, 0.4);
+    --background-color: #000028;
+    --background-image: url(../images/cover-image-dark.png);
+    --article-title-color: var(--background-color);
+    --section-title-color: var(--title-shadow);
+    --border-color: var(--main-text-color);
+    --corners-color: var(--title-shadow);
+    --title-decor: var(--title-shadow);
+    --link-shadow: var(--title-shadow);
+    --rec-color: var(--title-shadow);
+  }
+
   :root:not(.theme-light) .header__rec {
     display: block;
   }
 }
-
