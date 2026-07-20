@@ -1,12 +1,9 @@
-@charset "UTF-8";
-
-/* Page */
-
 .page {
   background: var(--background-image) no-repeat top center,
   var(--background-color);
   background-size: auto 768px;
   color: var(--main-text-color);
+  background-attachment: fixed;
 }
 
 /* Header */
