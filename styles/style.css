@@ -76,7 +76,7 @@
   color: var(--corners-color);
   line-height: 100%;
   padding: 2.5px 12px;
-  border: transparent;
+  border: 1px solid transparent;
   background: none;
   cursor: pointer;
 }
@@ -95,6 +95,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid;
+  pointer-events: none;
 }
 
 @media (width < 1024px) and (width >= 768px) {
